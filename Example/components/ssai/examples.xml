@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="Examples" extends="Scene" >
+  <interface>
+    <field id="content" type="node" />
+  </interface>
+
+  <script type="text/brightscript" uri="pkg:/components/ssai/examples.brs" />
+  <script type="text/brightscript" uri="pkg:/components/utils/global.brs" />
+  <script type="text/brightscript" uri="pkg:/components/utils/log.brs" />
+
+  <children>
+
+    <!--
+      PROD VERSION: https://s-video.innovid.com/common/roku/hulu/innovid-iroll-renderer-sg.pkg
+      -->
+
+    <ComponentLibrary 
+      id="_lib"
+      uri="https://s-video.innovid.com/common/roku/innovid-iroll-renderer-sg.pkg"
+      />
+
+    <Rectangle
+      id="_bg"
+      color="0x343434"
+      width="1920"
+      height="1080"
+      translation="[0, 0]"
+      />
+
+    <LayoutGroup
+      id="_examplesContainer"
+      translation="[960,540]"
+      layoutDirection="vert"
+      horizAlignment="center"
+      vertAlignment="center">
+
+      <LabelList
+        id="_examples"
+        itemSize="[900,100]" />
+    </LayoutGroup>
+  </children>
+</component>

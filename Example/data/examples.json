@@ -1,0 +1,134 @@
+{
+  "examples": [
+    {
+      "id" : "party+sms",
+      "type" : "ssai+direct",
+      "title" : "SSAI // Party + SMS",
+      "content" : {
+        "id"           : "content",
+        "streamformat" : "hls",
+        "length"       : 605,
+        "url"          : "http:\/\/video.innovid.com\/common\/video\/timecode_10min_5s_lead\/source.m3u8"
+      },
+      "ads" : [
+        {
+          "id"         : "A1.1",
+          "duration"   : 30,
+          "renderTime" : 5,
+          "started"    : false,
+          "viewed"     : false,
+          "companions" : [
+            {
+              "url" : "http://video.innovid.com/tags/static.innovid.com/roku/1efrlb.json?cb=619366e9-6d8c-42ee-79c4-6346d6b2df72",
+              "mimeType" : "application/json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id" : "truex+sab+party+video+choice+card",
+      "type" : "ssai+direct",
+      "title" : "SSAI // TrueX - Sponsored Ad Break (VCC)",
+      "content" : {
+        "id"           : "content",
+        "streamformat" : "hls",
+        "length"       : 605,
+        "url"          : "http:\/\/video.innovid.com\/common\/video\/timecode_10min_5s_lead\/source.m3u8"
+      },
+      "ads" : [
+        {
+          "id"         : "A1.1",
+          "duration"   : 30,
+          "renderTime" : 5,
+          "started"    : false,
+          "viewed"     : false,
+          "companions" : [
+            {
+              "url" : "http://video.innovid.com/tags/static.innovid.com/roku/1eqhk0.json?cb=1423e1e2-ad71-b412-6e13-ce88b7d73429&ivc=bd%3D3%26bgv%3Dhttp%253A%252F%252Fmedia.truex.com%252Fvideo_assets%252F2017-10-19%252F7449bcac-3c12-480f-affc-f88f33b5cb0a_large.mp4%26f%3D%26ib%3Dhttp%253A%252F%252Fmedia.truex.com%252Fimage_assets%252F2017-10-26%252F77c77cfa-2201-456d-830d-ca2d562cb970.png%26ix%3D340%26iy%3D364%26n%3D%26p%3Dbid_info%253D7mx4qszy5dwdima8iesdf0r95q1z29n82um3ykgz2dg6zjs7ilrg59k5bllibd1wdy4jbjzfpm92a3bx14spfso4n94vr3nhh1j4b7p3fncg92gcug3ojx6dobz4599y7pzgxbc08fn8wtkb3lz2vubwkoxh1kwjbwikd7obwn4n8mu0nysosml7feohx2ecluikj5bhr011up6bjx6ticwnzi8l3lq6mebrva9fy3yygsah2k258equcni0p4tl56var8udt761x7zkoiqjb0utcglukxlpawd0ocqi2qcc6iwt2kyemf7r3waawfy7yxfapsgflabbtcyay9juk8azupol124zust5zfsm51bzis6lmcb3b8l9zm4i2yq0gm01yg2y027mfe7jbqx6%2526campaign_id%253D8590%2526creative_id%253D10740%2526currency_amount%253D1%2526impression_signature%253Dbd9fc01fd375e2657e6a0c93f9b24a881dc4f50bed2b8ff6dba1bbff3678eb29%2526impression_timestamp%253D1520622246.9579165%2526internal_referring_source%253Dfc18QZ_1SCGMdqGa0bOjkg%2526ip%253D8.28.125.21%2526network_user_id%253Dhulu_device_id%2526placement_hash%253Dc71311d8c8529036fd85fe37bd3c742b7e150515%2526session_id%253DTb4tCoCvSTe9jbPeNZ6gDg%2526stream_id%253D123%2526stream_position%253Dmidroll%2526vault%253Dy6q616h7tfp2qpe0au7e08bl3ei35ymuy2eho0bnavlygop3y6a3xmq5mkffvx6ndw45d1yh3jxe09wwt5m92sfvv44g40e149t3el4ajvvnrzgnylxmspto48de0f56zp3fctq546rgqr6hbee12q29j5exsb78ivotfce76prxdt6aer8zita9xo7dhgg2hn02428x76t7plowhfz7l6konstagec7wr2at5cdmex5u5pz9rdtgf12il0ijx0jxlge8dpfagfnge5x7f14mlacqsct51u6afvlqiq79d5ak22%26pos%3Dmidroll%26product%3Dsponsored_ad_break%26resume%3Dfalse%26s%3Dhttp%253A%252F%252Fserve.truex.com%26sec%3D30%26showskipcard%3Dfalse%26sk%3Dhttp%253A%252F%252Fmedia.truex.com%252Fm%252Fpartners%252Finnovid%252Froku2%252Ffoxnow_roku_skip_card.png%26vo%3D%26wb%3Dhttp%253A%252F%252Fmedia.truex.com%252Fimage_assets%252F2017-10-26%252F7c74b4cb-edcf-489f-9d86-15af40f367a5.png%26wx%3D632%26wy%3D364",
+              "mimeType" : "application/json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id" : "truex+sab+party+simple+choice+card",
+      "type" : "ssai+direct",
+      "title" : "SSAI // TrueX - Sponsored Ad Break (SCC)",
+      "content" : {
+        "id"           : "content",
+        "streamformat" : "hls",
+        "length"       : 605,
+        "url"          : "http:\/\/video.innovid.com\/common\/video\/timecode_10min_5s_lead\/source.m3u8"
+      },
+      "ads" : [
+        {
+          "id"         : "A1.1",
+          "duration"   : 30,
+          "renderTime" : 5,
+          "started"    : false,
+          "viewed"     : false,
+          "companions" : [
+            {
+              "url" : "http://video.innovid.com/tags/static.innovid.com/roku/1eqhk0.json?cb=1423e1e2-ad71-b412-6e13-ce88b7d73429&ivc=aa%3D30%26bd%3D%26bg%3Dhttp%253A%252F%252Fmedia.truex.com%252Fimage_assets%252F2018-07-19%252F36b05eac-b8fb-4f32-b01e-f97baaeee170.png%26f%3D%26ib%3Dhttp%253A%252F%252Fmedia.truex.com%252Fimage_assets%252F2017-08-07%252Fb0650577-255b-4a9a-8487-00078ba146fc.png%26n%3D%26p%3Dbid_info%253D7mx4qszy5dwdima8odmeq9jnuacy2gcjhrqw37xdkzzza9e94uclentfx7olssxrtdh0ak21bnm5m6zyyvq6m7emm07uwjozykewwcrvtcpi6pu57qbo4vj7bwuiisgojbxbbv7hy64a6k05g3vc0c0zl4juzdjvrrdtpcl7mqfqp436ft3a7lx0ncf9udgglftggq677zxf8jegqem0688ml26i7a4tmdxzm9a1qkljpn2u8yay0eptz4a8v34ngnk916o2zj2qw2m7rn6no9j924ldm39kvvchghxaed1wvokq10jaq0zs5jdrya3lw6s8opv5tjtx8q7bm275w1lg8ui4z8jwm4y2z72qkr0pg8r7ytlmj9mgbfksu3zuyjftb6i0ql08edbkis5m%2526campaign_id%253D13439%2526creative_id%253D14371%2526currency_amount%253D1%2526impression_signature%253D3ecc8f66696c048d7d8f0fda1dfe3439477379d7fe713c2bb6f4fab7ff9b3bc7%2526impression_timestamp%253D1532110206.9646935%2526internal_referring_source%253DJIXHvOM0RTGZ-Uu689M3oA%2526ip%253D76.79.158.35%2526network_user_id%253Dhulu_378841%25253Aa33b573f002007f9b2c1bd055608bc4c%2526placement_hash%253D50f0b0944f3a826e6d73c8895cb868fb2af0171c%2526session_id%253DoMs29m4SRK604Y_FebCS2Q%2526stream_id%253D134061654%2526stream_position%253Dmidroll%2526vault%253D1k13qzhdj0wygxv2t1sh52jsm5bi9ndk110fumudf6sflfk6t3dwxujybb8c0id9enf81p39b7iboygybu08lp8r06jrzsw1fec1tx0642tbdlscozacq9yskyyhvhwj66416kstprdryy39wappbw0zkdlqoyog7bnncc7u5e6jdrjagxopi3wp97ymu5xbv7lvoycmkilinxq1ejavn5wx89d4fpuydyo5ulrdy03b15nf0o1cg0tsgabscp6z4de9a4tw6rg78a7d0fmk7atn20ue9rfiryquef0elqmfhwejxo8sv7gnrlzmei1s40hhedgpyo5h2wrauiney%26pos%3Dmidroll%26product%3Dsponsored_ad_break%26resume%3Dfalse%26s%3Dhttp%253A%252F%252Fserve.truex.com%26sec%3D30%26showskipcard%3Dfalse%26sk%3Dhttp%253A%252F%252Fmedia.truex.com%252Fimage_assets%252F2018-07-19%252F36b05eac-b8fb-4f32-b01e-f97baaeee170.png%26vo%3Dhttp%253A%252F%252Fmedia.truex.com%252Faudio_assets%252F2017-06-22%252F48012872-8b8a-4b8a-b6e5-1c30f13b1a3f.mp3%26wb%3Dhttp%253A%252F%252Fmedia.truex.com%252Fimage_assets%252F2017-08-07%252Fe2901ce2-860d-47db-87c5-97e268ebcd79.png",
+              "mimeType" : "application/json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id" : "truex+ss+party",
+      "type" : "ssai+direct",
+      "title" : "SSAI // TrueX - Sponsored Stream",
+      "content" : {
+        "id"           : "content",
+        "streamformat" : "hls",
+        "length"       : 605,
+        "url"          : "http:\/\/video.innovid.com\/common\/video\/timecode_10min_5s_lead\/source.m3u8"
+      },
+      "ads" : [
+        {
+          "id"         : "A1.1",
+          "duration"   : 30,
+          "renderTime" : 5,
+          "started"    : false,
+          "viewed"     : false,
+          "companions" : [
+            {
+              "url" : "http://video.innovid.com/tags/static.innovid.com/roku/1eqhk0.json?cb=619366e9-6d8c-42ee-79c4-6346d6b2df72&ivc=bd%3D3%26bgv%3Dhttp%253A%252F%252Fmedia.truex.com%252Fvideo_assets%252F2017-11-22%252F688c8bf9-56cf-417d-88ce-4cd52962ecb2_large.mp4%26f%3D%26ib%3Dhttp%253A%252F%252Fmedia.truex.com%252Fimage_assets%252F2017-10-26%252F77c77cfa-2201-456d-830d-ca2d562cb970.png%26ix%3D340%26iy%3D364%26n%3D%26p%3Dbid_info%253D7mx4qszy5dwdima8nptba05rsoffszki3lp82i8l2rdtykehgk21i4lery9ct24mwf2s7uv2nd7fb9e8r5un449js7248fmf4hon1w8r589jko5xlrckx12rmt0n54qtbk4je0e5aehapys20qdet849iflzzo9qluz2ebtonjjkzmi4kvy3naz37tr1ytourocsgc02evnneqm1zj8uo7wtwjbyksk165co7eycwjfpnjm4ph6s6rbmjrtbuxzo4oh8hn8csz3pqliuuejygn7uqdk0ubtdocp7zrny10hp5pvnkhlg4u1hhhzuyyi6knmohuu2bm2b7elco6f9gwpffsift1lqhqwswi6caox9m6alswfqd2ut9d8eper87hft136w9ysuj5gfx2x6%2526campaign_id%253D12005%2526creative_id%253D13365%2526currency_amount%253D1%2526impression_signature%253D4b4e3a5456ba3f1107e9f2e9e091dc5122cec93ae739841c67a9bfbf84880ede%2526impression_timestamp%253D1520019170.352038%2526internal_referring_source%253DwyjJlwALTU2zFURYD7nBEg%2526ip%253D104.192.218.210%2526network_user_id%253D8c31e902-e166-5365-98f3-f5ef5b3536c3%2526placement_hash%253D43eb3bf94b66d4363cb7c28ff8a9f810270ca6b0%2526session_id%253DDIgZ2oOLQuCmPWCef6xf3w%2526stream_id%253D140036581%2526stream_position%253Dpreroll%2526vault%253D1ajisdduaqt7f33b2es8hkwmf6g7s1wz8j9s0jc3orjpm2y8w24nmwvc2kzpbu5205kclw2ozbpm18hxih7b09jo4fzdo2d1wdynxaelw28tsdvnzo1j046ic4b9naxsc12ppmz626vkxq8pvj9wwt4f1g73phh0zh0jfdtoua4nyg6qglezmfm2gm7jzkjy1kw6mdao7lb6g52ly6fy61nb7dxs3eclqqvksqkjdqba0h1kblo7o9befagysd2cpcoaluv8ivobrd0h6t8czgpouncvqainue20aq5tw1y9h0cdlla1bvyh5fx5uwe0f358ccn05mlje27zsm8khcn8z8i62w7ow5vcospczde2cmokqk96%26pos%3Dpreroll%26product%3Dsponsored_stream%26resume%3Dfalse%26s%3Dhttp%253A%252F%252Fserve.truex.com%26sec%3D30%26showskipcard%3Dfalse%26sk%3Dhttp%253A%252F%252Fmedia.truex.com%252Fm%252Fpartners%252Finnovid%252Froku2%252Ffoxnow_roku_skip_card.png%26vo%3D%26wb%3Dhttp%253A%252F%252Fmedia.truex.com%252Fimage_assets%252F2017-10-26%252F7c74b4cb-edcf-489f-9d86-15af40f367a5.png%26wx%3D632%26wy%3D364",
+              "mimeType" : "application/json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id" : "truex+continue+party",
+      "type" : "ssai+direct",
+      "title" : "SSAI // TrueX - Continue",
+      "content" : {
+        "id"           : "content",
+        "streamformat" : "hls",
+        "length"       : 605,
+        "url"          : "http:\/\/video.innovid.com\/common\/video\/timecode_10min_5s_lead\/source.m3u8"
+      },
+      "ads" : [
+        {
+          "id"         : "A1.1",
+          "duration"   : 30,
+          "renderTime" : 5,
+          "started"    : false,
+          "viewed"     : false,
+          "companions" : [
+            {
+              "url" : "http://video.innovid.com/tags/static.innovid.com/roku/1eqhk0.json?cb=f07asdasdas7dc61-3c00-e447-9a29-b90c5172ff10&ivc=aa%3D-1%26bd%3D3%26bgv%3Dhttp%253A%252F%252Fmedia.truex.com%252Fvideo_assets%252F2017-09-22%252Fd22df92f-f00a-4f47-a251-1b945fe68eb4_large.mp4%26f%3D%26ib%3Dhttp%253A%252F%252Fmedia.truex.com%252Fimage_assets%252F2017-09-22%252Ff08f9e68-5637-4124-bccd-c8df4d1dceda.png%26ix%3D486%26iy%3D364%26n%3D%26p%3Dbid_info%253D7mx4qszy5dwdima8g6fy3em4ephxu7iyarmon4edgxbca0ojsh29w4tcxe25iblfp9iatbmj3jeh1c38jqu4pftgochkz050pyvxe7xycul2g8ahqg9i75a4mm9vgbfamycmf3z9pjzseoc5yzcmxvnmmna2v63u1k40z3bh23326m8un9bnajt0iklwqvxk9xc29em8o93dkio99119h3m44rfg9ik2xywo2u6hok7wpdcvd2g02xd29s606hkfteb20zw7dsr2khvjfo0d1i9m9uupi54qwt9x9fapt7p7eficglxjz5w2s8losv4asatisxs1ibzpd2d8hrdkiv50qdgjzntg3qcmchccx7azfdl2xgs5iiklhtt5aibml1usw85dna07o35u8fm2%2526campaign_id%253D11102%2526creative_id%253D12796%2526currency_amount%253D1%2526impression_signature%253D04d2ffcd67729349885a4ceb9556876c1440ba65a73353e4359caa78ec2fd771%2526impression_timestamp%253D1511305904.1462803%2526internal_referring_source%253DF1HYe8sPR-yOz_yNjnzv-A%2526ip%253D104.192.218.210%2526network_user_id%253D48d4515a-44cd-5bea-9c40-905fd7bef21c%2526placement_hash%253De3583f4ece9aca06c5ebafeb5e0cd616970a7e6a%2526session_id%253D8JYbOmb8SYaVfzGrQmMnaA%2526stream_id%253D132899376%2526stream_position%253Dpreroll%26pos%3Dpreroll%26product%3Dcontinue%26resume%3Dfalse%26s%3Dhttp%253A%252F%252Fserve.truex.com%26sec%3D30%26showskipcard%3Dfalse%26vo%3D",
+              "mimeType" : "application/json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

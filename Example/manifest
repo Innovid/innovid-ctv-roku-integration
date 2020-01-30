@@ -1,0 +1,16 @@
+title=Innovid iRoll SG Demo
+subtitle=Immersive video, Anywhere
+major_version=1
+minor_version=0
+build_version=00000
+mm_icon_focus_hd=pkg:/assets/app-icon-248x185.png
+mm_icon_side_hd=pkg:/assets/app-icon-108x69.png
+mm_icon_focus_sd=pkg:/assets/app-icon-248x140.png
+mm_icon_side_sd=pkg:/assets/app-icon-108x69.png
+splash_screen_sd=pkg:/assets/app-splash-hd.png
+splash_screen_hd=pkg:/assets/app-splash-hd.png
+splash_color=#404040
+
+ui_resolutions=fhd
+
+bs_libs_required=roku_ads_lib

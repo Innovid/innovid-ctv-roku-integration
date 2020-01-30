@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="SimpleSSAIVideoPlayback" extends="Group"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="https://devtools.web.roku.com/schema/RokuSceneGraph.xsd">
+
+  <interface>
+    <field id="action" type="assocarray"/>
+  </interface>
+
+  <script type="text/brightscript" uri="pkg:/components/utils/types.brs" />
+  <script type="text/brightscript" uri="pkg:/components/utils/global.brs" />
+  <script type="text/brightscript" uri="pkg:/components/utils/log.brs" />
+  <script type="text/brightscript" uri="pkg:/components/ssai/simple-ssai-video-playback.brs" />
+  <script type="text/brightscript" uri="pkg:/components/ssai/iroll-handler.brs" />
+
+  <children>
+    <Video id="_video" />
+  </children>
+</component>
