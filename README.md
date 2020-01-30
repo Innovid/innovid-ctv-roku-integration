@@ -55,7 +55,7 @@ end function
 #### How to push the playback updates to iRoll instance
 The iRoll instance does not listen to the video node events, therefore the host app must provide video playback updates in case of `video.position` or `video.state` change
 
-You can find the sample implementation in (`components/ssai/iroll-handler.brs`) [https://github.com/innovid/roku-iroll-renderer-sg-ssai-demo/src/master/components/ssai/simple-ssai-video-playback.brs#simple-ssai-video-playback.brs-94]
+You can find the sample implementation in (`components/ssai/iroll-handler.brs`) [ssai_example_injecting_video_events]
 
 ```vbscript
 ' video.observeFieldScoped("position", "handlePlaybackStateChanged")
@@ -73,7 +73,7 @@ end function
 ```
 
 Also, the host app should handle iRoll playback requests.
-you can find the sample implementation in (`components/ssai/iroll-handler.brs`)[https://bitbucket.org/innovid_research/roku-iroll-renderer-sg-ssai-demo/src/master/components/ssai/iroll-handler.brs#iroll-handler.brs-77]
+you can find the sample implementation in (`components/ssai/iroll-handler.brs`)[ssai_example_handling_playback_requests]
 
 ```vbscript
 ' m.irollAd.observeFieldScoped("request", "handleIrollPlaybackRequest")
@@ -143,3 +143,6 @@ function handleIrollEvent(evt as Object) as Void
   ? "handleIrollEvent(";adId;", ";adEvent.type;")"
 end function
 ```
+
+[ssai_example_injecting_video_events]: https://github.com/Innovid/innovid-ctv-roku-integration/blob/master/Example/components/ssai/simple-ssai-video-playback.brs#L95
+[ssai_example_handling_playback_requests]: https://github.com/Innovid/innovid-ctv-roku-integration/blob/master/Example/components/ssai/iroll-handler.brs#L77
