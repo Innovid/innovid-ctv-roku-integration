@@ -1,4 +1,5 @@
-# Innovid IRoll // Direct Integration #
+Innovid IRoll // Direct Integration
+===================================
 
 This simple example demonstrates how to integrate Innovid iRoll Renderer into your app
 
