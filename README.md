@@ -4,7 +4,7 @@ This simple example demonstrates how to integrate Innovid iRoll Renderer into yo
 
 ## How to run this example
 ```bash
-cd <repo_dir>
+cd Example
 make install ROKU_DEV_TARGET=<ROKU_IP> DEVPASSWORD=<ROKU_DEV_PASSWORD>
 ```
 
@@ -25,7 +25,7 @@ make install ROKU_DEV_TARGET=<ROKU_IP> DEVPASSWORD=<ROKU_DEV_PASSWORD>
 ```
 
 #### How to create Innovid iRoll instance
-```vbscript
+```brightscript
 
 ' example or json url - http://video.innovid.com/tags/static.innovid.com/roku-hulu/1ikm30.json?cb=20180216
 ' @param String url_       - json file url ( as it defined in VAST )
@@ -57,7 +57,7 @@ The iRoll instance does not listen to the video node events, therefore the host 
 
 You can find the sample implementation in (`components/ssai/iroll-handler.brs`) [ssai_example_injecting_video_events]
 
-```vbscript
+```brightscript
 ' video.observeFieldScoped("position", "handlePlaybackStateChanged")
 ' video.observeFieldScoped("state", "handlePlaybackStateChanged")
 
@@ -75,7 +75,7 @@ end function
 Also, the host app should handle iRoll playback requests.
 you can find the sample implementation in (`components/ssai/iroll-handler.brs`)[ssai_example_handling_playback_requests]
 
-```vbscript
+```brightscript
 ' m.irollAd.observeFieldScoped("request", "handleIrollPlaybackRequest")
 
 function handleIrollPlaybackRequest(evt_ as Object) as Void
@@ -128,7 +128,7 @@ List of supported events
 | `exitSelectWatch`     | *TrueX // Select Normal Ads*  when the user selects to watch normal ads.
 | `exitBeforeOptIn`     | *TrueX // Close Interactive Ad* when the user exits the `choice_card` with `back` button press
 
-```vbscript
+```brightscript
 ' irollAd.observeFieldScoped("event", "handleIrollEvent")
 
 function handleIrollEvent(evt as Object) as Void
