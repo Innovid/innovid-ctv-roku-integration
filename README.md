@@ -56,7 +56,7 @@ end function
 #### How to push the playback updates to iRoll instance
 The iRoll instance does not listen to the video node events, therefore the host app must provide video playback updates in case of `video.position` or `video.state` change
 
-You can find the sample implementation in (`components/ssai/iroll-handler.brs`) [ssai_example_injecting_video_events]
+You can find the sample implementation in [`components/ssai/iroll-handler.brs`][ssai_example_injecting_video_events]
 
 ```brightscript
 ' video.observeFieldScoped("position", "handlePlaybackStateChanged")
@@ -74,7 +74,7 @@ end function
 ```
 
 Also, the host app should handle iRoll playback requests.
-you can find the sample implementation in (`components/ssai/iroll-handler.brs`)[ssai_example_handling_playback_requests]
+you can find the sample implementation in [`components/ssai/iroll-handler.brs`][ssai_example_handling_playback_requests]
 
 ```brightscript
 ' m.irollAd.observeFieldScoped("request", "handleIrollPlaybackRequest")
