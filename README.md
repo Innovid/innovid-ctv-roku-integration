@@ -46,7 +46,12 @@ function createIrollAd(url_ as String, duration_ as Float, renderTime_ as Float)
       adapter    : "default",
       renderTime : renderTime_,
       duration   : duration_
-    }
+    },
+   userCanCloseInteractive?: boolean  ' @optional -- defines if user can close interactive part by clicking on back 
+   fallback? : {                      ' @optional -- indicates the renderer should disable an interactive part
+      enabled: true,
+      details: string
+   }, 
   }
 
   irollAd.action = { type : "start" }
@@ -128,7 +133,7 @@ List of supported events
 | `exitAutoWatch`       | *TrueX // Auto Advance* when the choice card auto advance timer has expired.
 | `exitSelectWatch`     | *TrueX // Select Normal Ads*  when the user selects to watch normal ads.
 | `exitBeforeOptIn`     | *TrueX // Close Interactive Ad* when the user exits the `choice_card` with `back` button press
-
+| `OverlayClosed`     | *CBS // Interactive part has closed, ad will not resopnse to remote anymore
 ```brightscript
 ' irollAd.observeFieldScoped("event", "handleIrollEvent")
 
